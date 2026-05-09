@@ -4,6 +4,10 @@
 
 Zero external dependencies. Pure Rust.
 
+Self-vaccination against prompt injection using collective patterns.
+
+Part of the [Cocapn fleet](https://github.com/Lucineer/the-fleet).
+
 ## Inspiration
 
 The biological immune system solves an elegant problem: discriminate **self** from **non-self** without a pre-defined list of threats. It uses statistical pattern matching — lymphocytes that bind to molecular patterns with varying affinity.
@@ -82,8 +86,13 @@ resp.quarantine(&mut agent_states); // zero out compromised agents
 cargo test
 ```
 
-22 tests covering: self profile learning, self/non-self discrimination, anomaly scoring, correlation-based detection, immune response, quarantine, false positive rate tracking, multi-agent detection.
+24 tests covering: self profile learning, self/non-self discrimination, anomaly scoring, correlation-based detection, immune response, quarantine, false positive rate tracking, multi-agent detection.
 
 ## License
 
 MIT
+
+---
+<i>Built with [Cocapn](https://github.com/Lucineer/cocapn-ai).</i>
+
+Superinstance & Lucineer (DiGennaro et al.)
