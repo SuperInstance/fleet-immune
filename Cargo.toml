@@ -1,0 +1,9 @@
+[package]
+name = "fleet-immune"
+version = "0.1.0"
+edition = "2021"
+description = "Fleet immune system: intrusion detection, self/non-self discrimination, anomaly detection for multi-agent fleets."
+license = "MIT"
+
+[dependencies]
+# Zero external dependencies
